@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'route/app_pages.dart';
+import 'core.dart';
 
 void main() {
   runApp(const MainApp());

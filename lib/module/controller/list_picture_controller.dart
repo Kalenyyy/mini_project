@@ -1,4 +1,4 @@
-import 'package:get/get.dart';
+import '../../core.dart';
 import 'package:dio/dio.dart'; // Import Dio
 
 class ListPictureController extends GetxController {

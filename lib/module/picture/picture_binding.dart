@@ -1,12 +1,9 @@
-import 'package:get/get.dart';
-
-import '../controller/detail_picture_controller.dart';
-import '../controller/list_picture_controller.dart';
+import '../../core.dart';
 
 class PictureBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => DetailPictureController());
-    Get.lazyPut(() => ListPictureController());
+    Get.lazyPut<DetailPictureController>(() => DetailPictureController());
+    Get.lazyPut<ListPictureController>(() => ListPictureController());
   }
 }

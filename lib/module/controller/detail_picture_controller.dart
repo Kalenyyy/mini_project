@@ -1,5 +1,4 @@
-import 'package:get/get.dart';
-import '../controller/list_picture_controller.dart';
+import '../../core.dart';
 
 class DetailPictureController extends GetxController {
   late String id;
